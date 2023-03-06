@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <title>Dictionary</title>
+</head>
+<body>
+    <div class="item_parent">
+        <div class="item_childupper">
+            <input type="text" id="word" class="item_word" placeholder="word.....">
+            <i class="fa-sharp fa-solid fa-magnifying-glass" id="search"  ></i>   
+        </div>
+        <div class="item_childshow">
+            <div class="item_card1">
+                <div class="word" id="get_word" > </div>
+                <div class="phonetic" id="phonetic" ></div>
+            </div>
+            <div class="item_card2">
+                <div class="partOfSpeech" id="item_partOfSpeech"></div>
+                <div class="definition" id="item_definition"></div>
+            </div>
+        </div>
+        <div class="item_display">
+            <p id="display"></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
