@@ -66,7 +66,7 @@ input:focus{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    padding: 0;
+    padding-left: 2em;
     box-sizing: border-box;
 }
 
