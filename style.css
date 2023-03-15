@@ -22,7 +22,7 @@ body{
     margin: auto;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
-    /* background-image: linear-gradient(to top, rgb(209, 209, 209), grey, rgb(168, 168, 168), rgb(156, 160, 206)); */
+    background-image: linear-gradient(to top, rgba(3, 3, 121, 0.735), rgba(255, 255, 255, 0.775));
 }
 
 .item_childupper{
