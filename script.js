@@ -28,7 +28,8 @@ btn.addEventListener('click', () => {
 		})
 	})
 	.catch((err) => {
-		displayErr.innerText = "it's wrong word."
+		alert(`${input} is a wrong word`)
+		// displayErr.innerText = "it's wrong word."
 	});
 
 })
